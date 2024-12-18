@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2024/11/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2024/11/untitled-ontology-10">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2024/11/untitled-ontology-10/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AIConcept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Articles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Books"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaseStudies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CodingTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputerVision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeepLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exercise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feedback"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinalExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntroToAI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KnowledgeBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lesson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachineLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultipleChoice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalLanguageProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeuralNetworks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgressReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProjectTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quiz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReinforcementLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robotics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupervisedLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teacher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrueFalse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnsupervisedLearning"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evaluates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExercise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLesson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#refersTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#studies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#teaches"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDifficulty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasScore"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Article_AIApplications"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book_DeepLearning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CodingTask_Supervised"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepLearning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DrAlanTuring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FinalExam_AI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Individuals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IntroductionToAI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JaneSmith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JohnDoe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MCQ_IntroAI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MachineLearning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProfAdaLovelace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quiz_AIIntro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SupervisedLearningBasics"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Articles"/>
+        <Class IRI="#KnowledgeBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Books"/>
+        <Class IRI="#KnowledgeBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaseStudies"/>
+        <Class IRI="#KnowledgeBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CodingTask"/>
+        <Class IRI="#Exercise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerVision"/>
+        <Class IRI="#AIConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeepLearning"/>
+        <Class IRI="#AIConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feedback"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinalExam"/>
+        <Class IRI="#Assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntroToAI"/>
+        <Class IRI="#Lesson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachineLearning"/>
+        <Class IRI="#AIConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultipleChoice"/>
+        <Class IRI="#Exercise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalLanguageProcessing"/>
+        <Class IRI="#AIConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeuralNetworks"/>
+        <Class IRI="#Lesson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProgressReport"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProjectTask"/>
+        <Class IRI="#Exercise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quiz"/>
+        <Class IRI="#Assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReinforcementLearning"/>
+        <Class IRI="#Lesson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robotics"/>
+        <Class IRI="#AIConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupervisedLearning"/>
+        <Class IRI="#Lesson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrueFalse"/>
+        <Class IRI="#Exercise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnsupervisedLearning"/>
+        <Class IRI="#Lesson"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeBase"/>
+        <NamedIndividual IRI="#Article_AIApplications"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeBase"/>
+        <NamedIndividual IRI="#Book_DeepLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise"/>
+        <NamedIndividual IRI="#CodingTask_Supervised"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AIConcept"/>
+        <NamedIndividual IRI="#DeepLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher"/>
+        <NamedIndividual IRI="#DrAlanTuring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Assessment"/>
+        <NamedIndividual IRI="#FinalExam_AI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lesson"/>
+        <NamedIndividual IRI="#Individuals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lesson"/>
+        <NamedIndividual IRI="#IntroductionToAI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#JaneSmith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#JohnDoe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise"/>
+        <NamedIndividual IRI="#MCQ_IntroAI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AIConcept"/>
+        <NamedIndividual IRI="#MachineLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher"/>
+        <NamedIndividual IRI="#ProfAdaLovelace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Assessment"/>
+        <NamedIndividual IRI="#Quiz_AIIntro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lesson"/>
+        <NamedIndividual IRI="#SupervisedLearningBasics"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#evaluates"/>
+        <Class IRI="#Assessment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExercise"/>
+        <Class IRI="#Lesson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLesson"/>
+        <Class IRI="#AIConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#refersTo"/>
+        <Class IRI="#Lesson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#studies"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#teaches"/>
+        <Class IRI="#Teacher"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#evaluates"/>
+        <Class IRI="#Performance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExercise"/>
+        <Class IRI="#Exercise"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLesson"/>
+        <Class IRI="#Lesson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#refersTo"/>
+        <Class IRI="#KnowledgeBase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#studies"/>
+        <Class IRI="#Lesson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#teaches"/>
+        <Class IRI="#AIConcept"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDifficulty"/>
+        <Class IRI="#Exercise"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDifficulty"/>
+        <Class IRI="#Lesson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDuration"/>
+        <Class IRI="#Exercise"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDuration"/>
+        <Class IRI="#Lesson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Lesson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Teacher"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasScore"/>
+        <Class IRI="#Performance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTopic"/>
+        <Class IRI="#KnowledgeBase"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDifficulty"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDuration"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasScore"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTopic"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
